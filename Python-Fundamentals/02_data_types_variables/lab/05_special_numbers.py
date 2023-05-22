@@ -1,4 +1,4 @@
-# better way
+# Simpler approach
 n = int(input())
 
 
@@ -14,6 +14,8 @@ for num in range(1, n + 1):
     else:
         print(f'{num} -> False')
 
+
+# Interesting approach
 # n = int(input())
 #
 # sum_of_digits = 0
