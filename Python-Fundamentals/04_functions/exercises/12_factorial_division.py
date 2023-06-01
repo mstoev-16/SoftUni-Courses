@@ -32,5 +32,3 @@ def factorial(num1, num2):
 input_n1 = int(input())
 input_n2 = int(input())
 print(factorial(input_n1, input_n2))
-
-

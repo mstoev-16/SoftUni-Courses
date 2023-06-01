@@ -12,10 +12,7 @@ def filtering(value):
         return False
 
 
-even = filter(filtering, values)
-
-for i in even:
-    even_values.append(i)
+even_values = list(filter(filtering, values))
 
 print(even_values)
 

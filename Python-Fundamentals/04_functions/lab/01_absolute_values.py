@@ -19,4 +19,11 @@ def absolute_values(values):
 print(absolute_values(input().split()))
 
 
+# With mapping
+def abs_val(sequence):
+    absolute_values = list(map(lambda x: abs(float(x)), sequence))
+    return absolute_values
+
+
+print(abs_val(input().split()))
 

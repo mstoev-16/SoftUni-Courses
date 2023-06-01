@@ -1,4 +1,5 @@
 def items(item, quantity):
+    price = 0
     if item == 'coffee':
         price = 1.50 * quantity
     elif item == 'water':
@@ -11,7 +12,4 @@ def items(item, quantity):
     print(f'{price:.2f}')
 
 
-input_item = input()
-input_quantity = int(input())
-
-items(input_item, input_quantity)
+items(input(), int(input()))
